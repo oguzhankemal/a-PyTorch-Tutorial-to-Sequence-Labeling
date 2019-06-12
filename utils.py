@@ -199,7 +199,8 @@ def init_embedding(input_embedding):
     nn.init.uniform_(input_embedding, -bias, bias)
 
 
-def load_embeddings(emb_file, word_map, expand_vocab=True):
+def \
+        load_embeddings(emb_file, word_map, expand_vocab=True):
     """
     Load pre-trained embeddings for words in the word map.
 

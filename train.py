@@ -12,10 +12,13 @@ from sklearn.metrics import f1_score
 
 # Data parameters
 task = 'ner'  # tagging task, to choose column in CoNLL 2003 dataset
-train_file = './datasets/eng.train'  # path to training data
-val_file = './datasets/eng.testa'  # path to validation data
-test_file = './datasets/eng.testb'  # path to test data
-emb_file = './embeddings/glove.6B.100d.txt'  # path to pre-trained word embeddings
+#train_file = './datasets/eng.train'  # path to training data
+#val_file = './datasets/eng.testa'  # path to validation data
+#test_file = './datasets/eng.testb'  # path to test data
+train_file = '/home/oguzhan/Marmara/Datasets/conll003/conll003-englishversion/train.txt'  # path to training data
+val_file = '/home/oguzhan/Marmara/Datasets/conll003/conll003-englishversion/valid.txt'  # path to validation data
+test_file = '/home/oguzhan/Marmara/Datasets/conll003/conll003-englishversion/test.txt'  # path to test data
+emb_file = '/home/oguzhan/Marmara/Datasets/glove/glove.6B.100d.txt'  # path to pre-trained word embeddings
 min_word_freq = 5  # threshold for word frequency
 min_char_freq = 1  # threshold for character frequency
 caseless = True  # lowercase everything?
